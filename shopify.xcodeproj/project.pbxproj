@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032D9A7B2C0CE7D0007FD1FA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D9A7A2C0CE7D0007FD1FA /* HomeViewModel.swift */; };
 		034EFF442C0CC6DE0078EAAB /* Second Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034EFF432C0CC6DE0078EAAB /* Second Storyboard.storyboard */; };
 		034EFF462C0CC7020078EAAB /* Third Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034EFF452C0CC7020078EAAB /* Third Storyboard.storyboard */; };
 		03FC31A52C0B27C30021B1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC31A42C0B27C30021B1B3 /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		02A994BEA2E529AE2372F2A9 /* Pods_shopify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shopify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		032D9A7A2C0CE7D0007FD1FA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = shopify/View/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
 		034EFF432C0CC6DE0078EAAB /* Second Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Second Storyboard.storyboard"; sourceTree = "<group>"; };
 		034EFF452C0CC7020078EAAB /* Third Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Third Storyboard.storyboard"; sourceTree = "<group>"; };
 		03FC31A12C0B27C30021B1B3 /* shopify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopify.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032D9A772C0CE6DF007FD1FA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				032D9A792C0CE775007FD1FA /* view */,
+				032D9A782C0CE756007FD1FA /* view model */,
+			);
+			name = Home;
+			path = shopify/Modules/Home;
+			sourceTree = "<group>";
+		};
+		032D9A782C0CE756007FD1FA /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				032D9A7A2C0CE7D0007FD1FA /* HomeViewModel.swift */,
+			);
+			name = "view model";
+			path = "shopify/Modules/shopify/Modules/Home/view model";
+			sourceTree = "<group>";
+		};
+		032D9A792C0CE775007FD1FA /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		034EFF3D2C0CC46D0078EAAB /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +158,7 @@
 		034EFF412C0CC4F50078EAAB /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				032D9A772C0CE6DF007FD1FA /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -468,6 +497,7 @@
 				03FC31A92C0B27C30021B1B3 /* ViewController.swift in Sources */,
 				03FC31A52C0B27C30021B1B3 /* AppDelegate.swift in Sources */,
 				03FC31AF2C0B27C40021B1B3 /* shopify.xcdatamodeld in Sources */,
+				032D9A7B2C0CE7D0007FD1FA /* HomeViewModel.swift in Sources */,
 				03FC31A72C0B27C30021B1B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
